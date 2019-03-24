@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Child = ({ name }) => {
-  return <div>Hi, my name is {name}!</div>;
+  return <h1>Hi, my name is {name}!</h1>;
 };
 
 export default Child;
