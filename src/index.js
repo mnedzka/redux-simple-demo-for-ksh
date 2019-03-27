@@ -1,5 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import { render } from 'react-dom';
+import Counter from './Counter';
+import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App = () => (
+  <div>
+    <Counter />
+  </div>
+);
+
+render(<App />, document.getElementById('root'));
